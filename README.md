@@ -1,7 +1,7 @@
 # URL-Shortener
 ## Instalation
 ```bash
-pipenv install Flask Flask-SQLAlchemy
+pipenv sync
 ```
 ## Usage
 ```bash
