@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}URL Shortener{% endblock title %}
+
+{% block content %}
+
+<div class="container float-start" style="padding-top: 2%; padding-left: 1%;">
+    <div class="row">
+        <div class="col-6">
+            <form action="#" method="post">
+                <label for="urlInput" class="form-label">Input an URL:</label>
+                <input id="urlInput" class="form-control" name="url_input" type="url" placeholder="https://example.com"
+                    pattern="https://.*" required> <br>
+                <input type="submit" value="submit" class="btn btn-primary">
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}
