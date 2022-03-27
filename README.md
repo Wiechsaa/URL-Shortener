@@ -7,5 +7,4 @@ pipenv sync
 ```bash
 python3 app.py
 ```
-or 
-(link soon)
+or (deploy soon, since all url-shortener names are already taken on Heroku)
